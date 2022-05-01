@@ -1,0 +1,1 @@
+SELECT dayofweek + 1 AS WEEKDAY, COUNT(*) AS RIDES FROM uber GROUP BY dayofweek ORDER BY RIDES DESC;
